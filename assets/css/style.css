@@ -1,10 +1,23 @@
 header {
     font-family: 'Freckle Face', cursive;
-    font-size: 150px;
+    font-size: 100px;
+    color: magenta;
     text-align: center;
+    padding: 20px;
 
 }
 
+body {
+    background-image: "assets/images/pirateship.jpg";
+    background-size: contain;
+}
+
+#topContainer {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
+
 .crystals {
-    float: left;
+    padding: 20px;
 }
