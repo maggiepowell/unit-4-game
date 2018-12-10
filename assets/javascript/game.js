@@ -1,0 +1,1 @@
+var computerNumber = Math.floor((Math.random() * 120) + 19);
