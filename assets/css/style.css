@@ -4,24 +4,22 @@ header {
     color: magenta;
     text-align: center;
     padding: 20px;
-
 }
 
-.instructions {
-    font-family: 'Modern Antiqua', cursive;
-    font-size: 18px;
+body {
+    background-image: url("../images/pirateship.jpg");
+    background-position: 0;
+    background-attachment: fixed;
 }
-
-.runningTotal {
+.container {
     font-family: 'Modern Antiqua', cursive;
-    font-size: 18px;
+    font-size: 20px;
+    color: navy;
 }
 
 .score {
-    font-family: 'Modern Antiqua', cursive;
-    font-size: 18px;
+    margin-top: 50px;
 }
-
 .crystals {
     align-content: center;
 }
