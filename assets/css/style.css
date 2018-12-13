@@ -20,6 +20,11 @@ body {
 .score {
     margin-top: 50px;
 }
+
+.Points {
+    margin-top: 25px;
+}
+
 .crystals {
     align-content: center;
 }
