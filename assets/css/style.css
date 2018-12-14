@@ -3,7 +3,6 @@ header {
     font-size: 125px;
     color: magenta;
     text-align: center;
-    padding: 20px;
 }
 
 body {
@@ -11,11 +10,11 @@ body {
     background-position: 0;
     background-attachment: fixed;
 }
-.topContainer {
+.bottomContainer {
     font-family: 'Margarine', cursive;
     font-size: 20px;
-    color: navy;
-    background-color: aliceblue;
+    color: rgb(57, 211, 231);
+    background-color: rgb(24, 101, 168);
     border-radius: 25px;
     padding: 20px;
 
@@ -25,10 +24,11 @@ body {
     margin-top: 50px;
 }
 
-.Points {
-    margin-top: 25px;
+#startButton {
+    margin-bottom: 25px;
 }
 
 .crystals {
     align-content: center;
+    margin-bottom: 25px;
 }
