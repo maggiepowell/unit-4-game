@@ -2,19 +2,23 @@ $( document ).ready(function() {
     console.log( "ready!" );
 });
 
-var computerNumber = 0
+var computerNumber
 var sapphire = 0
 var emerald = 0
 var diamond = 0
 var ruby = 0
-var points = 0
+var points
 var wins = 0
 var loses = 0
 
-$("#startButton").on("click", startGame())
+$("#startButton").on("click", function(){
+    startGame()
+    });
 
 function startGame() {
+    console.log("test");
     points = 0;
+    computerNumber = 0;
     $(".points").text("Points Collected: " + points);
     computerNumber = Math.floor((Math.random() * 120) + 19);
     $(".computerNumber").text(computerNumber + " is your number to match!");
